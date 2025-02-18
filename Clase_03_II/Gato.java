@@ -4,8 +4,8 @@ public class Gato extends Animal implements Terreste {
 
     private String raza;
 
-    public Gato(String nombre, String nombreReino) {
-        super(nombre, nombreReino);
+    public Gato(String nombre, String raza, String NombreReino) {
+        super(nombre, NombreReino);
         this.raza = raza;
     }
 
