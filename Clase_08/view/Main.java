@@ -3,14 +3,15 @@ package Clase_08.view;
 import java.util.List;
 import java.util.Scanner;
 
-import Clase_08.controller.SistemaEmergencias;
-import Clase_08.model.Emergencia;
-import Clase_08.model.factory.FactoryEmergencias;
-import Clase_08.model.services.Ambulancia;
-import Clase_08.model.services.Bomberos;
-import Clase_08.model.services.Policia;
-import Clase_08.utils.NivelGravedad;
-import Clase_08.utils.TipoEmergencia;
+import Clase_08.controller.*;
+import Clase_08.model.*;
+import Clase_08.model.factory.*;
+import Clase_08.model.interfaces.*;
+import Clase_08.model.observer.*;
+import Clase_08.model.services.*;
+import Clase_08.model.strategy.*;
+import Clase_08.utils.*;
+import Clase_08.view.*;
 
 public class Main {
     public static void main(String[] args) {
